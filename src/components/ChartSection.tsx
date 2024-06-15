@@ -188,7 +188,7 @@ export default function ChartSection() {
       },
       title: {
         display: true,
-        text: "Temperature and humidity readings every 2 minutes",
+        text: "Temperature and humidity readings",
         color: "#333",
         font: {
           size: 18,
@@ -258,8 +258,7 @@ export default function ChartSection() {
         Environmental Data
       </h2>
       <p className="text-lg text-center text-gray-700 mb-8">
-        Monitoring temperature and humidity levels every 2 minutes to ensure
-        optimal conditions.
+        Monitoring temperature and humidity levels to ensure optimal conditions.
       </p>
       <section className="max-w-[1000px] mx-auto border mt-16 p-8 bg-white rounded-lg">
         <div style={{ position: "relative", height: "60vh" }}>
