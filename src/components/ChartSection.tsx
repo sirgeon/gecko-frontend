@@ -177,12 +177,11 @@ export default function ChartSection() {
     plugins: {
       legend: {
         display: true,
-        position: "top",
         labels: {
           color: "#333",
           font: {
             size: 14,
-            weight: "bold",
+            weight: 700,
             family: "IBM Plex Mono, monospace",
           },
         },
@@ -193,13 +192,13 @@ export default function ChartSection() {
         color: "#333",
         font: {
           size: 18,
-          weight: "bold",
+          weight: 700,
           family: "IBM Plex Mono, monospace",
         },
       },
       tooltip: {
         enabled: true,
-        mode: "index",
+        mode: "index" as const,
         intersect: false,
         backgroundColor: "#fff",
         titleColor: "#333",
@@ -209,7 +208,7 @@ export default function ChartSection() {
         titleFont: {
           family: "IBM Plex Mono, monospace",
           size: 14,
-          weight: "bold",
+          weight: 700,
         },
         bodyFont: {
           family: "IBM Plex Mono, monospace",
@@ -245,7 +244,7 @@ export default function ChartSection() {
           color: "#333",
           font: {
             size: 14,
-            weight: "bold",
+            weight: 700,
             family: "IBM Plex Mono, monospace",
           },
         },
